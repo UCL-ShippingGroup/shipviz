@@ -9,7 +9,7 @@ sudo apt-get -y install git
 sudo apt-get -y install vim
 
 #CURL
-sudo apt-get install curl
+sudo apt-get install -y curl
 
 #MAKE
 sudo apt-get install -y build-essential checkinstall 
@@ -34,6 +34,8 @@ sudo apt-get install -y proj-bin proj-data libproj-dev
 
 #NODEJS
 sudo apt-get install -y nodejs-legacy
+sudo apt-get install -y npm
+sudo apt-get install libpango1.0-dev
 
 #REDIS SERVER
 sudo apt-get install -y redis-server
