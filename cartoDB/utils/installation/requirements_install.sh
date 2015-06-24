@@ -8,6 +8,9 @@ sudo apt-get -y install git
 #VIM
 sudo apt-get -y install vim
 
+#CURL
+sudo apt-get install curl
+
 #MAKE
 sudo apt-get install -y build-essential checkinstall 
 
