@@ -1,3 +1,5 @@
+cd 
+cd cartodb
 sudo su <<'EOF'
 apt-get install python-setuptools
 easy_install pip
