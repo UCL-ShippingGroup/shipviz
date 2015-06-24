@@ -1,3 +1,5 @@
+cd
+git clone --recursive https://github.com/CartoDB/cartodb.git
 ./ppas_install.sh
 ./requirements_install.sh
 ./postgres_install.sh
