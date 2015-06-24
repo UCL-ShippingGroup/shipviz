@@ -1,4 +1,4 @@
-su - postgres <<'EOF'
+sudo su postgres <<'EOF'
 POSTGIS_SQL_PATH=`pg_config --sharedir`/contrib/postgis-2.1
 createdb -E UTF8 template_postgis
 createlang -d template_postgis plpgsql
