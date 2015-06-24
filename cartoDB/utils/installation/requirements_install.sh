@@ -28,3 +28,23 @@ sudo apt-get install -y libjson0 python-simplejson libjson0-dev
 
 #PROJ4
 sudo apt-get install -y proj-bin proj-data libproj-dev
+
+#NODEJS
+sudo apt-get install -y nodejs-legacy
+
+#REDIS SERVER
+sudo apt-get install -y redis-server
+
+#PYTHON 
+sudo apt-get install -y python2.7-dev
+sudo apt-get install -y python-setuptools
+
+#MapNik
+sudo apt-get install -y libmapnik-dev python-mapnik mapnik-utils
+
+#ImageMagick
+sudo apt-get install -y imagemagick
+
+#Varnish - no access to versions  < 3.x needed by CartoDB
+#sudo apt-get install -y varnish=2.1.5.1-cdb1 #or any version <3.x
+

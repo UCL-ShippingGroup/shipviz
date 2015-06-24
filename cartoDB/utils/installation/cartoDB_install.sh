@@ -1,5 +1,5 @@
-./requirements.sh
 ./ppas.sh
+./requirements.sh
 ./postgres.sh
 ./postgis.sh
 ./postgis_extension.sh
