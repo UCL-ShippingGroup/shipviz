@@ -31,6 +31,9 @@ bundle exec  $HOME/cartodb/script/resque &
 
 #Finally, start the CartoDB development server on port 3000:
 bundle exec rails s -p 3000 &
+
+#Give it time until everything is ready
+sleep 10
                                         
 #Open with Firefox 
 firefox http://development.localhost.lan:3000/dashboard 
