@@ -31,7 +31,7 @@ for script in ppas requirements postgres postgis ruby  python nvm cartodb_sql_ap
 	if [ "$script" == "ruby" ]; then
 		source $scriptfile > $logfile 2>&1
 	else
-		$scriptfile > $logfile
+		$scriptfile > $logfile 2>&1
 	fi
 	
 	#Check execution went well.
