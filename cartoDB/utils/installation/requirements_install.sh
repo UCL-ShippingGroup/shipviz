@@ -53,3 +53,6 @@ sudo apt-get install -y imagemagick
 #Varnish - no access to versions  < 3.x needed by CartoDB
 #sudo apt-get install -y varnish=2.1.5.1-cdb1 #or any version <3.x
 
+#Tools for autogenerating postgis docu
+sudo apt-get install -y xsltproc xmllint dblatex
+
