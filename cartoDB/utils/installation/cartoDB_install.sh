@@ -7,9 +7,12 @@ echo "For more information visit https://github.com/UCL-ShippingGroup/shipviz/wi
 echo "or look at the scripts in this folder."
 echo
 
+SHIPVIZ_PATH=$HOME/shipviz/cartoDB/utils/installation
+mkdir $SHIPVIZ_PATH/log
+
 #Clone CartoDB repo
 printf "Cloning CartoDB repo... "
-git clone --recursive https://github.com/CartoDB/cartodb.git $HOME/cartodb
+git clone --recursive https://github.com/CartoDB/cartodb.git $HOME/cartodb > $SHIPVIZ_PATH/log/cartoDB_clone.log 2>&1
 if [ $? -eq 0 ]; then
         printf "OK!\n"
 else
@@ -17,8 +20,6 @@ else
 fi
 
 #Execute all scripts in order
-SHIPVIZ_PATH=$HOME/shipviz/cartoDB/utils/installation
-mkdir log
 for script in ppas requirements postgres postgis ruby  python nvm cartodb_sql_api windshaft raster; do 
 	#Prepare for script execution.
 	echo
@@ -28,9 +29,9 @@ for script in ppas requirements postgres postgis ruby  python nvm cartodb_sql_ap
 	
 	#Execute scripts. Note ruby's need to be sourced instead.
 	if [ "$script" == "ruby" ]; then
-		source ./$scriptfile > $logfile 2>&1
+		source $scriptfile > $logfile 2>&1
 	else
-		./$scriptfile > $logfile
+		$scriptfile > $logfile
 	fi
 	
 	#Check execution went well.
