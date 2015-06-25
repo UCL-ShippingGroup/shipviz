@@ -35,7 +35,7 @@ sudo apt-get install -y proj-bin proj-data libproj-dev
 #NODEJS
 sudo apt-get install -y nodejs-legacy
 sudo apt-get install -y npm
-sudo apt-get install libpango1.0-dev
+sudo apt-get install -y libpango1.0-dev
 
 #REDIS SERVER
 sudo apt-get install -y redis-server
