@@ -6,12 +6,6 @@ node app.js development &
 cd $HOME/Windshaft-cartodb
 node app.js development &
 
-#Needed later
-export SUBDOMAIN=development
-
-# Enter the `cartodb` directory.
-cd cartodb
-
 #Run Redis Server
 redis-server &
 
@@ -29,7 +23,7 @@ cp $HOME/cartodb/config/database.yml.sample $HOME/cartodb/config/database.yml
 echo "127.0.0.1 ${SUBDOMAIN}.localhost.lan" | sudo tee -a /etc/hosts
 
 #Create a development user
-sh  $HOME/cartodb/script/create_dev_user ${SUBDOMAIN}
+sh  $HOME/cartodb/script/create_dev_user development development development r.alegre@ucl.ac.uk
 
 #Start the resque daemon (needed for import jobs):
 bundle exec  $HOME/cartodb/script/resque &
