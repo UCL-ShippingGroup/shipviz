@@ -1,0 +1,889 @@
+Cloning into '/home/parallels/Windshaft-cartodb'...
+Already on 'master'
+Your branch is up-to-date with 'origin/master'.
+
+> windshaft-cartodb@2.5.1 preinstall /home/parallels/Windshaft-cartodb
+> make pre-install
+
+npm http GET https://registry.npmjs.org/cartodb-redis/0.13.0
+npm http GET https://registry.npmjs.org/fastly-purge/1.0.0
+npm http GET https://registry.npmjs.org/istanbul
+npm http GET https://registry.npmjs.org/nock
+npm http GET https://registry.npmjs.org/redis
+npm http GET https://registry.npmjs.org/strftime
+npm http GET https://registry.npmjs.org/semver
+npm http GET https://registry.npmjs.org/cartodb-psql/-/cartodb-psql-0.4.0.tgz
+npm http GET https://registry.npmjs.org/redis-mpool/-/redis-mpool-0.3.0.tgz
+npm http GET https://registry.npmjs.org/lzma/-/lzma-1.3.7.tgz
+npm http GET https://github.com/CartoDB/log4js-node/tarball/cdb
+npm http GET https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+npm http GET https://registry.npmjs.org/request/-/request-2.9.203.tgz
+npm http GET https://registry.npmjs.org/windshaft/-/windshaft-0.45.0.tgz
+npm http GET https://registry.npmjs.org/step/-/step-0.0.5.tgz
+npm http GET https://registry.npmjs.org/queue-async/-/queue-async-1.0.7.tgz
+npm http GET https://registry.npmjs.org/dot/-/dot-1.0.3.tgz
+npm http GET https://registry.npmjs.org/mocha
+npm http GET https://registry.npmjs.org/jshint
+npm http 200 https://registry.npmjs.org/request/-/request-2.9.203.tgz
+npm http 200 https://registry.npmjs.org/redis-mpool/-/redis-mpool-0.3.0.tgz
+npm http 200 https://registry.npmjs.org/cartodb-psql/-/cartodb-psql-0.4.0.tgz
+npm http 200 https://registry.npmjs.org/underscore/-/underscore-1.6.0.tgz
+npm http 200 https://registry.npmjs.org/step/-/step-0.0.5.tgz
+npm http 200 https://registry.npmjs.org/queue-async/-/queue-async-1.0.7.tgz
+npm http 200 https://registry.npmjs.org/istanbul
+npm http 200 https://registry.npmjs.org/dot/-/dot-1.0.3.tgz
+npm http 200 https://registry.npmjs.org/windshaft/-/windshaft-0.45.0.tgz
+npm http 200 https://registry.npmjs.org/redis
+npm http GET https://registry.npmjs.org/istanbul/-/istanbul-0.3.16.tgz
+npm http GET https://registry.npmjs.org/redis/-/redis-0.8.6.tgz
+npm http 200 https://registry.npmjs.org/semver
+npm http GET https://registry.npmjs.org/semver/-/semver-1.1.4.tgz
+npm http 200 https://registry.npmjs.org/cartodb-redis/0.13.0
+npm http 304 https://registry.npmjs.org/mocha
+npm http GET https://registry.npmjs.org/cartodb-redis/-/cartodb-redis-0.13.0.tgz
+npm http 304 https://registry.npmjs.org/jshint
+npm http 200 https://registry.npmjs.org/istanbul/-/istanbul-0.3.16.tgz
+npm http 200 https://registry.npmjs.org/semver/-/semver-1.1.4.tgz
+npm http 200 https://registry.npmjs.org/redis/-/redis-0.8.6.tgz
+npm http 200 https://registry.npmjs.org/fastly-purge/1.0.0
+npm http GET https://registry.npmjs.org/fastly-purge/-/fastly-purge-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/lzma/-/lzma-1.3.7.tgz
+npm http 200 https://registry.npmjs.org/nock
+npm http 200 https://github.com/CartoDB/log4js-node/tarball/cdb
+npm http 200 https://registry.npmjs.org/strftime
+npm http GET https://registry.npmjs.org/nock/-/nock-1.3.0.tgz
+npm http 200 https://registry.npmjs.org/cartodb-redis/-/cartodb-redis-0.13.0.tgz
+npm http 200 https://registry.npmjs.org/fastly-purge/-/fastly-purge-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/nock/-/nock-1.3.0.tgz
+npm http GET https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http GET https://registry.npmjs.org/redis/-/redis-0.12.1.tgz
+npm http GET https://registry.npmjs.org/hiredis/-/hiredis-0.1.17.tgz
+npm http GET https://registry.npmjs.org/request/-/request-2.58.0.tgz
+npm http 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http 200 https://registry.npmjs.org/redis/-/redis-0.12.1.tgz
+npm http 200 https://registry.npmjs.org/hiredis/-/hiredis-0.1.17.tgz
+npm http 200 https://registry.npmjs.org/request/-/request-2.58.0.tgz
+npm http GET https://registry.npmjs.org/esprima
+npm http GET https://registry.npmjs.org/escodegen
+npm http GET https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/handlebars/3.0.0
+npm http GET https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/fileset
+npm http GET https://registry.npmjs.org/which
+npm http GET https://registry.npmjs.org/supports-color
+npm http GET https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/abbrev
+npm http GET https://registry.npmjs.org/resolve
+npm http GET https://registry.npmjs.org/js-yaml
+npm http GET https://registry.npmjs.org/once
+npm http GET https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/commander/2.3.0
+npm http GET https://registry.npmjs.org/debug/2.0.0
+npm http GET https://registry.npmjs.org/diff/1.0.8
+npm http GET https://registry.npmjs.org/escape-string-regexp/1.0.2
+npm http GET https://registry.npmjs.org/glob/3.2.3
+npm http GET https://registry.npmjs.org/growl/1.8.1
+npm http GET https://registry.npmjs.org/jade/0.26.3
+npm http GET https://registry.npmjs.org/mkdirp/0.5.0
+npm http 200 https://registry.npmjs.org/handlebars/3.0.0
+npm http GET https://registry.npmjs.org/handlebars/-/handlebars-3.0.0.tgz
+npm http 200 https://registry.npmjs.org/nopt
+npm http GET https://registry.npmjs.org/nopt/-/nopt-3.0.3.tgz
+npm http GET https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz
+npm http 200 https://registry.npmjs.org/esprima
+npm http 200 https://registry.npmjs.org/fileset
+npm http 200 https://registry.npmjs.org/escodegen
+npm http 200 https://registry.npmjs.org/which
+npm http GET https://registry.npmjs.org/semver/-/semver-4.3.6.tgz
+npm http GET https://registry.npmjs.org/async/-/async-0.2.10.tgz
+npm http GET https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+npm http GET https://registry.npmjs.org/esprima/-/esprima-2.1.0.tgz
+npm http GET https://registry.npmjs.org/fileset/-/fileset-0.2.1.tgz
+npm http GET https://registry.npmjs.org/escodegen/-/escodegen-1.6.1.tgz
+npm http 200 https://registry.npmjs.org/supports-color
+npm http 200 https://registry.npmjs.org/abbrev
+npm http GET https://registry.npmjs.org/which/-/which-1.0.9.tgz
+npm http 200 https://registry.npmjs.org/mkdirp
+npm http GET https://registry.npmjs.org/supports-color/-/supports-color-1.3.1.tgz
+npm http GET https://registry.npmjs.org/abbrev/-/abbrev-1.0.7.tgz
+npm http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+npm http 200 https://registry.npmjs.org/resolve
+npm http 304 https://registry.npmjs.org/wordwrap
+npm http GET https://registry.npmjs.org/resolve/-/resolve-1.1.6.tgz
+npm http 200 https://registry.npmjs.org/js-yaml
+npm http 304 https://registry.npmjs.org/commander/2.3.0
+npm http 200 https://registry.npmjs.org/handlebars/-/handlebars-3.0.0.tgz
+npm http 200 https://registry.npmjs.org/async
+npm http GET https://registry.npmjs.org/js-yaml/-/js-yaml-3.3.1.tgz
+npm http 304 https://registry.npmjs.org/debug/2.0.0
+npm http 304 https://registry.npmjs.org/escape-string-regexp/1.0.2
+npm http GET https://registry.npmjs.org/async/-/async-1.2.1.tgz
+npm http 304 https://registry.npmjs.org/glob/3.2.3
+npm http 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz
+npm http 304 https://registry.npmjs.org/jade/0.26.3
+npm http 200 https://registry.npmjs.org/semver/-/semver-4.3.6.tgz
+npm http 200 https://registry.npmjs.org/async/-/async-0.2.10.tgz
+npm http 200 https://registry.npmjs.org/nopt/-/nopt-3.0.3.tgz
+npm http 304 https://registry.npmjs.org/growl/1.8.1
+npm http 304 https://registry.npmjs.org/mkdirp/0.5.0
+npm http 200 https://registry.npmjs.org/underscore/-/underscore-1.8.2.tgz
+npm http 200 https://registry.npmjs.org/esprima/-/esprima-2.1.0.tgz
+npm http 200 https://registry.npmjs.org/fileset/-/fileset-0.2.1.tgz
+npm http 200 https://registry.npmjs.org/escodegen/-/escodegen-1.6.1.tgz
+npm http 200 https://registry.npmjs.org/which/-/which-1.0.9.tgz
+npm http GET https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http GET https://registry.npmjs.org/redis/-/redis-0.12.1.tgz
+npm http 200 https://registry.npmjs.org/abbrev/-/abbrev-1.0.7.tgz
+npm http 200 https://registry.npmjs.org/supports-color/-/supports-color-1.3.1.tgz
+npm http 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.5.1.tgz
+npm http 200 https://registry.npmjs.org/resolve/-/resolve-1.1.6.tgz
+npm http 200 https://registry.npmjs.org/js-yaml/-/js-yaml-3.3.1.tgz
+npm http 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http 200 https://registry.npmjs.org/redis/-/redis-0.12.1.tgz
+npm http 200 https://registry.npmjs.org/once
+npm http 200 https://registry.npmjs.org/async/-/async-1.2.1.tgz
+npm http GET https://registry.npmjs.org/once/-/once-1.3.2.tgz
+npm http 304 https://registry.npmjs.org/diff/1.0.8
+npm http 200 https://registry.npmjs.org/once/-/once-1.3.2.tgz
+npm http GET https://registry.npmjs.org/ms/0.6.2
+npm http 304 https://registry.npmjs.org/ms/0.6.2
+npm http GET https://registry.npmjs.org/minimist/0.0.8
+npm http 304 https://registry.npmjs.org/minimist/0.0.8
+npm http GET https://registry.npmjs.org/inherits
+npm http GET https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/graceful-fs
+npm http 304 https://registry.npmjs.org/inherits
+npm http 304 https://registry.npmjs.org/minimatch
+npm http GET https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/commander/0.6.1
+npm http GET https://registry.npmjs.org/mkdirp/0.3.0
+npm http GET https://registry.npmjs.org/lodash/2.4.1
+npm http GET https://registry.npmjs.org/propagate
+npm http GET https://registry.npmjs.org/chai
+npm http GET https://registry.npmjs.org/debug
+npm http 304 https://registry.npmjs.org/commander/0.6.1
+npm http 304 https://registry.npmjs.org/mkdirp/0.3.0
+npm http 200 https://registry.npmjs.org/lodash/2.4.1
+npm http 200 https://registry.npmjs.org/propagate
+npm http GET https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+npm http GET https://registry.npmjs.org/propagate/-/propagate-0.3.1.tgz
+npm http 200 https://registry.npmjs.org/lru-cache
+npm http GET https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.4.tgz
+npm http 200 https://registry.npmjs.org/debug
+npm http GET https://registry.npmjs.org/debug/-/debug-1.0.4.tgz
+npm http 200 https://registry.npmjs.org/lru-cache/-/lru-cache-2.6.4.tgz
+npm http 200 https://registry.npmjs.org/lodash/-/lodash-2.4.1.tgz
+npm http 200 https://registry.npmjs.org/propagate/-/propagate-0.3.1.tgz
+npm http 304 https://registry.npmjs.org/sigmund
+npm http GET https://registry.npmjs.org/extend/-/extend-2.0.1.tgz
+npm http GET https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/debug/-/debug-1.0.4.tgz
+npm http GET https://registry.npmjs.org/form-data/-/form-data-1.0.0-rc1.tgz
+npm http GET https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz
+npm http GET https://registry.npmjs.org/mime-types/-/mime-types-2.0.14.tgz
+npm http GET https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+npm http GET https://registry.npmjs.org/qs/-/qs-3.1.0.tgz
+npm http GET https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz
+npm http GET https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz
+npm http GET https://registry.npmjs.org/http-signature/-/http-signature-0.11.0.tgz
+npm http GET https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.5.tgz
+npm http GET https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.8.0.tgz
+npm http GET https://registry.npmjs.org/hawk/-/hawk-2.3.1.tgz
+npm http GET https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz
+npm http GET https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+npm http GET https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz
+npm http GET https://registry.npmjs.org/har-validator/-/har-validator-1.7.1.tgz
+npm http GET https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+npm http GET https://registry.npmjs.org/caseless/-/caseless-0.10.0.tgz
+npm http 200 https://registry.npmjs.org/mime-types/-/mime-types-2.0.14.tgz
+npm http 200 https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+npm http 200 https://registry.npmjs.org/qs/-/qs-3.1.0.tgz
+npm http 200 https://registry.npmjs.org/extend/-/extend-2.0.1.tgz
+npm http 200 https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz
+npm http 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz
+npm http 200 https://registry.npmjs.org/http-signature/-/http-signature-0.11.0.tgz
+npm http 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/combined-stream/-/combined-stream-1.0.5.tgz
+npm http 200 https://registry.npmjs.org/form-data/-/form-data-1.0.0-rc1.tgz
+npm http 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz
+npm http 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.8.0.tgz
+npm http 200 https://registry.npmjs.org/isstream/-/isstream-0.1.2.tgz
+npm http 200 https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz
+npm http 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+npm http 200 https://registry.npmjs.org/hawk/-/hawk-2.3.1.tgz
+npm http 200 https://registry.npmjs.org/har-validator/-/har-validator-1.7.1.tgz
+npm http 200 https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+npm http 200 https://registry.npmjs.org/caseless/-/caseless-0.10.0.tgz
+npm http 200 https://registry.npmjs.org/chai
+npm http GET https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+npm http 200 https://registry.npmjs.org/chai/-/chai-1.10.0.tgz
+npm http GET https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz
+npm http GET https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz
+npm http GET https://registry.npmjs.org/inherits/2.0.1
+npm http GET https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz
+npm http 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz
+npm http GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+npm http GET https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+npm http 200 https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz
+npm http 304 https://registry.npmjs.org/inherits/2.0.1
+npm http 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+npm http 200 https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+npm http GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+npm http GET https://registry.npmjs.org/exit
+npm http GET https://registry.npmjs.org/htmlparser2
+npm http GET https://registry.npmjs.org/shelljs
+npm http GET https://registry.npmjs.org/strip-json-comments
+npm http GET https://registry.npmjs.org/cli
+npm http GET https://registry.npmjs.org/console-browserify
+npm http 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+npm http 304 https://registry.npmjs.org/htmlparser2
+npm http 304 https://registry.npmjs.org/shelljs
+npm http 304 https://registry.npmjs.org/cli
+npm http 304 https://registry.npmjs.org/console-browserify
+npm http 304 https://registry.npmjs.org/exit
+npm http 304 https://registry.npmjs.org/strip-json-comments
+
+> hiredis@0.1.17 install /home/parallels/Windshaft-cartodb/node_modules/redis-mpool/node_modules/hiredis
+> node-gyp rebuild
+
+npm http GET https://registry.npmjs.org/date-now
+npm http 304 https://registry.npmjs.org/date-now
+npm http GET https://registry.npmjs.org/glob
+npm http 304 https://registry.npmjs.org/glob
+make: Entering directory `/home/parallels/Windshaft-cartodb/node_modules/redis-mpool/node_modules/hiredis/build'
+  CC(target) Release/obj.target/hiredis/deps/hiredis/hiredis.o
+
+> hiredis@0.1.17 install /home/parallels/Windshaft-cartodb/node_modules/cartodb-redis/node_modules/redis-mpool/node_modules/hiredis
+> node-gyp rebuild
+
+npm http GET https://registry.npmjs.org/readable-stream
+npm http GET https://registry.npmjs.org/domelementtype
+npm http GET https://registry.npmjs.org/entities
+npm http GET https://registry.npmjs.org/domhandler
+npm http GET https://registry.npmjs.org/domutils
+make: Entering directory `/home/parallels/Windshaft-cartodb/node_modules/cartodb-redis/node_modules/redis-mpool/node_modules/hiredis/build'
+  CC(target) Release/obj.target/hiredis/deps/hiredis/hiredis.o
+npm http 304 https://registry.npmjs.org/domhandler
+npm http 304 https://registry.npmjs.org/readable-stream
+npm http 304 https://registry.npmjs.org/domelementtype
+npm http 304 https://registry.npmjs.org/entities
+npm http 304 https://registry.npmjs.org/domutils
+  CC(target) Release/obj.target/hiredis/deps/hiredis/net.o
+npm http GET https://registry.npmjs.org/dom-serializer
+npm http GET https://registry.npmjs.org/string_decoder
+npm http GET https://registry.npmjs.org/core-util-is
+npm http GET https://registry.npmjs.org/isarray/0.0.1
+npm http 304 https://registry.npmjs.org/dom-serializer
+npm http 304 https://registry.npmjs.org/isarray/0.0.1
+  CC(target) Release/obj.target/hiredis/deps/hiredis/sds.o
+npm http 304 https://registry.npmjs.org/string_decoder
+npm http 304 https://registry.npmjs.org/core-util-is
+  CC(target) Release/obj.target/hiredis/deps/hiredis/net.o
+  CC(target) Release/obj.target/hiredis/deps/hiredis/sds.o
+npm http GET https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz
+npm http GET https://registry.npmjs.org/mime-db/-/mime-db-1.12.0.tgz
+npm http GET https://registry.npmjs.org/async/-/async-1.2.1.tgz
+npm http GET https://registry.npmjs.org/mime-types/-/mime-types-2.1.1.tgz
+  CC(target) Release/obj.target/hiredis/deps/hiredis/async.o
+npm http GET https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz
+npm http 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-1.0.0.tgz
+npm http GET https://registry.npmjs.org/ctype/-/ctype-0.5.3.tgz
+npm http GET https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz
+npm http GET https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz
+npm http 200 https://registry.npmjs.org/mime-db/-/mime-db-1.12.0.tgz
+npm http 200 https://registry.npmjs.org/mime-types/-/mime-types-2.1.1.tgz
+npm http 200 https://registry.npmjs.org/async/-/async-1.2.1.tgz
+npm http 200 https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz
+npm http 200 https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz
+npm http GET https://registry.npmjs.org/is-my-json-valid/-/is-my-json-valid-2.12.0.tgz
+npm http GET https://registry.npmjs.org/commander/-/commander-2.8.1.tgz
+npm http GET https://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz
+npm http GET https://registry.npmjs.org/chalk/-/chalk-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/bluebird/-/bluebird-2.9.30.tgz
+npm http 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz
+npm http 200 https://registry.npmjs.org/chalk/-/chalk-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/ctype/-/ctype-0.5.3.tgz
+npm http GET https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz
+npm http GET https://registry.npmjs.org/buffer-writer/-/buffer-writer-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/commander/-/commander-2.8.1.tgz
+  CC(target) Release/obj.target/hiredis/deps/hiredis/async.o
+npm http 200 https://registry.npmjs.org/is-my-json-valid/-/is-my-json-valid-2.12.0.tgz
+npm http 200 https://registry.npmjs.org/buffer-writer/-/buffer-writer-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.3.tgz
+  AR(target) Release/obj.target/deps/hiredis.a
+  COPY Release/hiredis.a
+  CXX(target) Release/obj.target/hiredis/src/hiredis.o
+  AR(target) Release/obj.target/deps/hiredis.a
+  COPY Release/hiredis.a
+  CXX(target) Release/obj.target/hiredis/src/hiredis.o
+  CXX(target) Release/obj.target/hiredis/src/reader.o
+npm http GET https://registry.npmjs.org/hoek/-/hoek-2.14.0.tgz
+npm http GET https://registry.npmjs.org/boom/-/boom-2.8.0.tgz
+npm http GET https://registry.npmjs.org/cryptiles/-/cryptiles-2.0.4.tgz
+npm http GET https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz
+npm http 200 https://registry.npmjs.org/cryptiles/-/cryptiles-2.0.4.tgz
+npm http 200 https://registry.npmjs.org/boom/-/boom-2.8.0.tgz
+npm http 200 https://registry.npmjs.org/hoek/-/hoek-2.14.0.tgz
+npm http 200 https://registry.npmjs.org/sntp/-/sntp-1.0.9.tgz
+
+> pg@2.6.2-cdb1 install /home/parallels/Windshaft-cartodb/node_modules/cartodb-psql/node_modules/pg
+> node-gyp rebuild || (exit 0)
+
+  CXX(target) Release/obj.target/hiredis/src/reader.o
+npm http GET https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz
+npm http GET https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz
+npm http GET https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz
+npm http 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz
+npm http 200 https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz
+npm http 200 https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz
+make: Entering directory `/home/parallels/Windshaft-cartodb/node_modules/cartodb-psql/node_modules/pg/build'
+  CXX(target) Release/obj.target/binding/src/binding.o
+  SOLINK_MODULE(target) Release/obj.target/hiredis.node
+  SOLINK_MODULE(target) Release/obj.target/hiredis.node: Finished
+  COPY Release/hiredis.node
+make: Leaving directory `/home/parallels/Windshaft-cartodb/node_modules/redis-mpool/node_modules/hiredis/build'
+  SOLINK_MODULE(target) Release/obj.target/hiredis.node
+  SOLINK_MODULE(target) Release/obj.target/hiredis.node: Finished
+  COPY Release/hiredis.node
+make: Leaving directory `/home/parallels/Windshaft-cartodb/node_modules/cartodb-redis/node_modules/redis-mpool/node_modules/hiredis/build'
+npm http GET https://registry.npmjs.org/wrappy
+  SOLINK_MODULE(target) Release/obj.target/binding.node
+  SOLINK_MODULE(target) Release/obj.target/binding.node: Finished
+  COPY Release/binding.node
+make: Leaving directory `/home/parallels/Windshaft-cartodb/node_modules/cartodb-psql/node_modules/pg/build'
+npm http 200 https://registry.npmjs.org/wrappy
+npm http GET https://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz
+npm http GET https://registry.npmjs.org/glob/-/glob-5.0.10.tgz
+npm http GET https://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz
+npm http GET https://registry.npmjs.org/estraverse
+npm http GET https://registry.npmjs.org/esutils
+npm http GET https://registry.npmjs.org/optionator
+npm http GET https://registry.npmjs.org/source-map
+npm http GET https://registry.npmjs.org/esprima/-/esprima-1.2.5.tgz
+npm http 200 https://registry.npmjs.org/wrappy/-/wrappy-1.0.1.tgz
+npm http 200 https://registry.npmjs.org/glob/-/glob-5.0.10.tgz
+npm http 200 https://registry.npmjs.org/minimatch/-/minimatch-2.0.8.tgz
+npm http 200 https://registry.npmjs.org/estraverse
+npm http GET https://registry.npmjs.org/estraverse/-/estraverse-1.9.3.tgz
+npm http 200 https://registry.npmjs.org/optionator
+npm http GET https://registry.npmjs.org/optionator/-/optionator-0.5.0.tgz
+npm http 200 https://registry.npmjs.org/esprima/-/esprima-1.2.5.tgz
+npm http 200 https://registry.npmjs.org/source-map
+npm http 200 https://registry.npmjs.org/estraverse/-/estraverse-1.9.3.tgz
+npm http GET https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz
+npm http 200 https://registry.npmjs.org/optionator/-/optionator-0.5.0.tgz
+npm http 200 https://registry.npmjs.org/esutils
+npm http GET https://registry.npmjs.org/esutils/-/esutils-1.1.6.tgz
+npm http 200 https://registry.npmjs.org/source-map/-/source-map-0.1.43.tgz
+npm http GET https://registry.npmjs.org/argparse
+npm http GET https://registry.npmjs.org/esprima/-/esprima-2.2.0.tgz
+npm http 200 https://registry.npmjs.org/esutils/-/esutils-1.1.6.tgz
+npm http 200 https://registry.npmjs.org/esprima/-/esprima-2.2.0.tgz
+npm http 200 https://registry.npmjs.org/argparse
+npm http GET https://registry.npmjs.org/argparse/-/argparse-1.0.2.tgz
+npm http GET https://registry.npmjs.org/inflight
+npm http GET https://registry.npmjs.org/path-is-absolute
+npm http GET https://registry.npmjs.org/brace-expansion
+npm http 200 https://registry.npmjs.org/argparse/-/argparse-1.0.2.tgz
+npm http GET https://registry.npmjs.org/assertion-error/1.0.0
+npm http GET https://registry.npmjs.org/deep-eql/0.1.3
+npm http 200 https://registry.npmjs.org/brace-expansion
+npm http 200 https://registry.npmjs.org/inflight
+npm http GET https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz
+npm http GET https://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz
+npm http 200 https://registry.npmjs.org/path-is-absolute
+npm http GET https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/inflight/-/inflight-1.0.4.tgz
+npm http 200 https://registry.npmjs.org/assertion-error/1.0.0
+npm http 200 https://registry.npmjs.org/deep-eql/0.1.3
+npm http GET https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+npm http GET https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/brace-expansion/-/brace-expansion-1.1.0.tgz
+npm http 200 https://registry.npmjs.org/path-is-absolute/-/path-is-absolute-1.0.0.tgz
+npm http 200 https://registry.npmjs.org/deep-eql/-/deep-eql-0.1.3.tgz
+npm http 200 https://registry.npmjs.org/assertion-error/-/assertion-error-1.0.0.tgz
+
+> windshaft@0.45.0 preinstall /home/parallels/Windshaft-cartodb/node_modules/windshaft
+> make pre-install
+
+npm http GET https://registry.npmjs.org/tilelive/-/tilelive-4.5.3.tgz
+npm http GET https://github.com/CartoDB/tilelive-mapnik/tarball/cdb
+npm http GET https://github.com/CartoDB/node-mapnik/tarball/1.4.15-cdb1
+npm http GET https://registry.npmjs.org/canvas/-/canvas-1.2.1.tgz
+npm http GET https://github.com/CartoDB/carto/tarball/0.15.1-cdb1
+npm http GET https://registry.npmjs.org/step-profiler/-/step-profiler-0.2.1.tgz
+npm http GET https://registry.npmjs.org/torque.js/-/torque.js-2.11.0.tgz
+npm http GET https://registry.npmjs.org/request/-/request-2.48.0.tgz
+npm http GET https://github.com/CartoDB/abaculus/tarball/cdb
+npm http GET https://registry.npmjs.org/sphericalmercator/-/sphericalmercator-1.0.2.tgz
+npm http GET https://registry.npmjs.org/node-statsd/-/node-statsd-0.0.7.tgz
+npm http GET https://registry.npmjs.org/grainstore/-/grainstore-0.23.0.tgz
+npm http GET https://registry.npmjs.org/express/-/express-2.5.11.tgz
+npm http GET https://registry.npmjs.org/has-ansi/-/has-ansi-1.0.3.tgz
+npm http 200 https://registry.npmjs.org/step-profiler/-/step-profiler-0.2.1.tgz
+npm http GET https://registry.npmjs.org/strip-ansi/-/strip-ansi-2.0.1.tgz
+npm http GET https://registry.npmjs.org/supports-color/-/supports-color-1.3.1.tgz
+npm http GET https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.0.1.tgz
+npm http GET https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.3.tgz
+npm http 200 https://registry.npmjs.org/tilelive/-/tilelive-4.5.3.tgz
+npm http 200 https://registry.npmjs.org/sphericalmercator/-/sphericalmercator-1.0.2.tgz
+npm http 200 https://registry.npmjs.org/canvas/-/canvas-1.2.1.tgz
+npm http 200 https://registry.npmjs.org/request/-/request-2.48.0.tgz
+npm http GET https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz
+npm http 200 https://registry.npmjs.org/grainstore/-/grainstore-0.23.0.tgz
+npm http 200 https://registry.npmjs.org/express/-/express-2.5.11.tgz
+npm http 200 https://registry.npmjs.org/torque.js/-/torque.js-2.11.0.tgz
+npm http 200 https://registry.npmjs.org/has-ansi/-/has-ansi-1.0.3.tgz
+npm http 200 https://registry.npmjs.org/strip-ansi/-/strip-ansi-2.0.1.tgz
+npm http 200 https://registry.npmjs.org/supports-color/-/supports-color-1.3.1.tgz
+npm http 200 https://registry.npmjs.org/ansi-styles/-/ansi-styles-2.0.1.tgz
+npm http 200 https://registry.npmjs.org/escape-string-regexp/-/escape-string-regexp-1.0.3.tgz
+npm http 200 https://registry.npmjs.org/graceful-readlink/-/graceful-readlink-1.0.1.tgz
+npm http GET https://registry.npmjs.org/type-detect/0.1.1
+npm http GET https://registry.npmjs.org/mime-db/-/mime-db-1.13.0.tgz
+npm http 200 https://registry.npmjs.org/type-detect/0.1.1
+npm http 200 https://registry.npmjs.org/node-statsd/-/node-statsd-0.0.7.tgz
+npm http GET https://registry.npmjs.org/uglify-js
+npm http GET https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz
+npm http 200 https://registry.npmjs.org/mime-db/-/mime-db-1.13.0.tgz
+npm http 304 https://registry.npmjs.org/optimist
+npm http GET https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/type-detect/-/type-detect-0.1.1.tgz
+npm http 200 https://registry.npmjs.org/uglify-js
+npm http GET https://registry.npmjs.org/ansi-regex/-/ansi-regex-1.1.1.tgz
+npm http GET https://registry.npmjs.org/get-stdin/-/get-stdin-4.0.1.tgz
+npm http GET https://registry.npmjs.org/uglify-js/-/uglify-js-2.3.6.tgz
+npm http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http GET https://registry.npmjs.org/generate-function/-/generate-function-2.0.0.tgz
+npm http GET https://registry.npmjs.org/generate-object-property/-/generate-object-property-1.2.0.tgz
+npm http GET https://registry.npmjs.org/jsonpointer/-/jsonpointer-1.1.0.tgz
+npm http GET https://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz
+npm http 200 https://registry.npmjs.org/get-stdin/-/get-stdin-4.0.1.tgz
+npm http 200 https://registry.npmjs.org/jsonpointer/-/jsonpointer-1.1.0.tgz
+npm http 200 https://registry.npmjs.org/ansi-regex/-/ansi-regex-1.1.1.tgz
+npm http 200 https://registry.npmjs.org/uglify-js/-/uglify-js-2.3.6.tgz
+npm http GET https://registry.npmjs.org/balanced-match
+npm http 200 https://github.com/CartoDB/node-mapnik/tarball/1.4.15-cdb1
+npm http 200 https://github.com/CartoDB/tilelive-mapnik/tarball/cdb
+npm http GET https://registry.npmjs.org/concat-map/0.0.1
+npm http 200 https://registry.npmjs.org/xtend/-/xtend-4.0.0.tgz
+npm http 200 https://github.com/CartoDB/carto/tarball/0.15.1-cdb1
+npm http 200 https://github.com/CartoDB/abaculus/tarball/cdb
+npm http 200 https://registry.npmjs.org/generate-object-property/-/generate-object-property-1.2.0.tgz
+npm http 200 https://registry.npmjs.org/generate-function/-/generate-function-2.0.0.tgz
+npm http 200 https://registry.npmjs.org/balanced-match
+npm http 200 https://registry.npmjs.org/concat-map/0.0.1
+npm http GET https://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz
+npm http GET https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/balanced-match/-/balanced-match-0.2.0.tgz
+npm http 200 https://registry.npmjs.org/concat-map/-/concat-map-0.0.1.tgz
+npm http GET https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz
+npm http 200 https://registry.npmjs.org/is-property/-/is-property-1.0.2.tgz
+npm http GET https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/sprintf-js
+npm http 200 https://registry.npmjs.org/sprintf-js
+npm http GET https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.2.tgz
+npm http 200 https://registry.npmjs.org/lodash
+npm http GET https://registry.npmjs.org/lodash/-/lodash-3.9.3.tgz
+npm http 200 https://registry.npmjs.org/sprintf-js/-/sprintf-js-1.0.2.tgz
+npm http 200 https://registry.npmjs.org/lodash/-/lodash-3.9.3.tgz
+npm http GET https://registry.npmjs.org/minimist
+npm http 200 https://registry.npmjs.org/minimist
+npm http GET https://registry.npmjs.org/amdefine
+npm http GET https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http GET https://registry.npmjs.org/async
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/amdefine
+npm http GET https://registry.npmjs.org/amdefine/-/amdefine-0.1.1.tgz
+npm http 304 https://registry.npmjs.org/async
+npm http 200 https://registry.npmjs.org/amdefine/-/amdefine-0.1.1.tgz
+npm http GET https://registry.npmjs.org/prelude-ls
+npm http GET https://registry.npmjs.org/deep-is
+npm http GET https://registry.npmjs.org/type-check
+npm http GET https://registry.npmjs.org/levn
+npm http GET https://registry.npmjs.org/fast-levenshtein
+npm http 200 https://registry.npmjs.org/deep-is
+npm http GET https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz
+npm http 200 https://registry.npmjs.org/prelude-ls
+npm http 200 https://registry.npmjs.org/levn
+npm http GET https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz
+npm http GET https://registry.npmjs.org/levn/-/levn-0.2.5.tgz
+npm http 200 https://registry.npmjs.org/fast-levenshtein
+npm http GET https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-1.0.6.tgz
+npm http 200 https://registry.npmjs.org/type-check
+npm http GET https://registry.npmjs.org/type-check/-/type-check-0.3.1.tgz
+npm http 200 https://registry.npmjs.org/prelude-ls/-/prelude-ls-1.1.2.tgz
+npm http 200 https://registry.npmjs.org/levn/-/levn-0.2.5.tgz
+npm http 200 https://registry.npmjs.org/deep-is/-/deep-is-0.1.3.tgz
+npm http 200 https://registry.npmjs.org/fast-levenshtein/-/fast-levenshtein-1.0.6.tgz
+npm http 200 https://registry.npmjs.org/type-check/-/type-check-0.3.1.tgz
+npm http GET https://github.com/CartoDB/node-mapnik/tarball/1.4.15-cdb1
+npm http GET https://registry.npmjs.org/connect/-/connect-1.9.2.tgz
+npm http GET https://registry.npmjs.org/mime/-/mime-1.2.4.tgz
+npm http GET https://registry.npmjs.org/qs/-/qs-0.4.2.tgz
+npm http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz
+npm http GET https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+npm http GET https://registry.npmjs.org/caseless/-/caseless-0.7.0.tgz
+npm http GET https://registry.npmjs.org/forever-agent/-/forever-agent-0.5.2.tgz
+npm http GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+npm http GET https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz
+npm http GET https://registry.npmjs.org/mime-types/-/mime-types-1.0.2.tgz
+npm http GET https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+npm http GET https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+npm http GET https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz
+npm http GET https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz
+npm http GET https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz
+npm http GET https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.5.0.tgz
+npm http GET https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz
+npm http GET https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+npm http GET https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz
+npm http GET https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz
+npm http GET https://github.com/CartoDB/node-redis-mpool/tarball/0.1.0
+npm http GET https://github.com/CartoDB/carto/tarball/0.9.5-cdb2
+npm http GET https://registry.npmjs.org/millstone/-/millstone-0.6.14.tgz
+npm http 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.0.tgz
+npm http GET https://registry.npmjs.org/nan/-/nan-1.5.3.tgz
+npm http 200 https://registry.npmjs.org/qs/-/qs-0.4.2.tgz
+npm http 200 https://registry.npmjs.org/bl/-/bl-0.9.4.tgz
+npm http 200 https://registry.npmjs.org/mime/-/mime-1.2.4.tgz
+npm http 200 https://registry.npmjs.org/connect/-/connect-1.9.2.tgz
+npm http 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.5.2.tgz
+npm http 200 https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+npm http 200 https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz
+npm http 200 https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+npm http 200 https://registry.npmjs.org/qs/-/qs-2.3.3.tgz
+npm http 200 https://registry.npmjs.org/mime-types/-/mime-types-1.0.2.tgz
+npm http 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.4.0.tgz
+npm http 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz
+npm http 200 https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz
+npm http 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.5.0.tgz
+npm http 200 https://registry.npmjs.org/hawk/-/hawk-1.1.1.tgz
+npm http 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+npm http 200 https://registry.npmjs.org/stringstream/-/stringstream-0.0.4.tgz
+npm http 200 https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz
+npm http 200 https://registry.npmjs.org/nan/-/nan-1.5.3.tgz
+npm http 200 https://registry.npmjs.org/caseless/-/caseless-0.7.0.tgz
+npm http GET https://registry.npmjs.org/nan/-/nan-1.2.0.tgz
+npm http GET https://registry.npmjs.org/mapnik-vector-tile/-/mapnik-vector-tile-0.5.5.tgz
+npm http GET https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.5.25.tgz
+npm http 200 https://registry.npmjs.org/nan/-/nan-1.2.0.tgz
+npm http 200 https://registry.npmjs.org/mapnik-vector-tile/-/mapnik-vector-tile-0.5.5.tgz
+npm http 200 https://github.com/CartoDB/node-mapnik/tarball/1.4.15-cdb1
+npm http GET https://registry.npmjs.org/mapnik-reference/-/mapnik-reference-6.0.5.tgz
+npm http GET https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http 200 https://github.com/CartoDB/node-redis-mpool/tarball/0.1.0
+npm http 200 https://github.com/CartoDB/carto/tarball/0.9.5-cdb2
+npm http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/millstone/-/millstone-0.6.14.tgz
+npm http 200 https://registry.npmjs.org/node-pre-gyp/-/node-pre-gyp-0.5.25.tgz
+
+> canvas@1.2.1 install /home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/canvas
+> node-gyp rebuild
+
+make: Entering directory `/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/canvas/build'
+  SOLINK_MODULE(target) Release/obj.target/canvas-postbuild.node
+npm http 200 https://registry.npmjs.org/mapnik-reference/-/mapnik-reference-6.0.5.tgz
+  SOLINK_MODULE(target) Release/obj.target/canvas-postbuild.node: Finished
+  COPY Release/canvas-postbuild.node
+  CXX(target) Release/obj.target/canvas/src/Canvas.o
+npm http GET https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http GET https://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz
+npm http GET https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+npm http GET https://registry.npmjs.org/async/-/async-0.9.2.tgz
+npm http GET https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz
+npm http 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz
+npm http 200 https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+npm http GET https://registry.npmjs.org/ctype/-/ctype-0.5.3.tgz
+npm http GET https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz
+npm http GET https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz
+npm http 200 https://registry.npmjs.org/async/-/async-0.9.2.tgz
+npm http GET https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http 200 https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz
+npm http 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http 200 https://registry.npmjs.org/readable-stream/-/readable-stream-1.0.33.tgz
+npm http 200 https://registry.npmjs.org/ctype/-/ctype-0.5.3.tgz
+npm http 200 https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz
+  CXX(target) Release/obj.target/canvas/src/CanvasGradient.o
+npm http GET https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz
+npm http GET https://registry.npmjs.org/cryptiles/-/cryptiles-0.2.2.tgz
+npm http GET https://registry.npmjs.org/hoek/-/hoek-0.9.1.tgz
+npm http GET https://registry.npmjs.org/boom/-/boom-0.4.2.tgz
+npm http GET https://registry.npmjs.org/sntp/-/sntp-0.2.4.tgz
+npm http 200 https://registry.npmjs.org/formidable/-/formidable-1.0.17.tgz
+npm http 200 https://registry.npmjs.org/sntp/-/sntp-0.2.4.tgz
+npm http 200 https://registry.npmjs.org/cryptiles/-/cryptiles-0.2.2.tgz
+npm http 200 https://registry.npmjs.org/hoek/-/hoek-0.9.1.tgz
+npm http 200 https://registry.npmjs.org/boom/-/boom-0.4.2.tgz
+  CXX(target) Release/obj.target/canvas/src/CanvasPattern.o
+npm http GET https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz
+npm http GET https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz
+npm http GET https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz
+npm http GET https://registry.npmjs.org/inherits/2.0.1
+npm http GET https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http GET https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/core-util-is/-/core-util-is-1.0.1.tgz
+npm http 200 https://registry.npmjs.org/isarray/-/isarray-0.0.1.tgz
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/string_decoder/-/string_decoder-0.10.31.tgz
+npm http 304 https://registry.npmjs.org/inherits/2.0.1
+npm http 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+  CXX(target) Release/obj.target/canvas/src/CanvasRenderingContext2d.o
+../src/CanvasRenderingContext2d.cc: In member function ‘void Context2d::shadow(void (*)(cairo_t*))’:
+../src/CanvasRenderingContext2d.cc:374:22: warning: unused variable ‘surface’ [-Wunused-variable]
+     cairo_surface_t *surface = cairo_get_group_target(_context);
+                      ^
+npm http GET https://github.com/CartoDB/carto/archive/master.tar.gz
+npm http GET https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http GET https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+  CXX(target) Release/obj.target/canvas/src/color.o
+  CXX(target) Release/obj.target/canvas/src/Image.o
+npm http 200 https://github.com/CartoDB/carto/archive/master.tar.gz
+  CXX(target) Release/obj.target/canvas/src/ImageData.o
+  CXX(target) Release/obj.target/canvas/src/init.o
+  CXX(target) Release/obj.target/canvas/src/PixelArray.o
+  CXX(target) Release/obj.target/canvas/src/FontFace.o
+  SOLINK_MODULE(target) Release/obj.target/canvas.node
+  SOLINK_MODULE(target) Release/obj.target/canvas.node: Finished
+  COPY Release/canvas.node
+make: Leaving directory `/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/canvas/build'
+
+> mapnik@1.4.15-cdb1 install /home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/mapnik
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp http GET https://cartodb-node-binary.s3.amazonaws.com/mapnik/v1.4.15-cdb1/node-v11-linux-x64.tar.gz
+npm http GET https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http GET https://registry.npmjs.org/redis/-/redis-0.12.1.tgz
+npm http GET https://registry.npmjs.org/hiredis/-/hiredis-0.1.17.tgz
+npm http 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.1.1.tgz
+npm http 200 https://registry.npmjs.org/redis/-/redis-0.12.1.tgz
+npm http 200 https://registry.npmjs.org/hiredis/-/hiredis-0.1.17.tgz
+npm http GET https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz
+npm http GET https://registry.npmjs.org/mapnik-reference/-/mapnik-reference-5.0.9.tgz
+npm http GET https://registry.npmjs.org/xml2js/-/xml2js-0.2.8.tgz
+npm http GET https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+node-pre-gyp http 200 https://cartodb-node-binary.s3.amazonaws.com/mapnik/v1.4.15-cdb1/node-v11-linux-x64.tar.gz
+npm http 200 https://registry.npmjs.org/xml2js/-/xml2js-0.2.8.tgz
+npm http 200 https://registry.npmjs.org/mapnik-reference/-/mapnik-reference-5.0.9.tgz
+npm http 200 https://registry.npmjs.org/underscore/-/underscore-1.4.4.tgz
+npm http GET https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+npm http GET https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+npm http 200 https://registry.npmjs.org/bindings/-/bindings-1.2.1.tgz
+npm http 200 https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+
+> hiredis@0.1.17 install /home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/redis-mpool/node_modules/hiredis
+> node-gyp rebuild
+
+npm http GET https://registry.npmjs.org/sax/-/sax-0.5.8.tgz
+npm http GET https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http GET https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+make: Entering directory `/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/redis-mpool/node_modules/hiredis/build'
+  CC(target) Release/obj.target/hiredis/deps/hiredis/hiredis.o
+npm http 200 https://registry.npmjs.org/sax/-/sax-0.5.8.tgz
+npm http 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+  CC(target) Release/obj.target/hiredis/deps/hiredis/net.o
+  CC(target) Release/obj.target/hiredis/deps/hiredis/sds.o
+  CC(target) Release/obj.target/hiredis/deps/hiredis/async.o
+npm http GET https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.4.tgz
+npm http GET https://registry.npmjs.org/request/-/request-2.34.0.tgz
+npm http GET https://registry.npmjs.org/srs/-/srs-0.4.8.tgz
+npm http GET https://registry.npmjs.org/zipfile/-/zipfile-0.5.7.tgz
+npm http GET https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+npm http GET https://registry.npmjs.org/sqlite3/-/sqlite3-2.2.7.tgz
+npm http GET https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http GET https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+npm http 200 https://registry.npmjs.org/mime/-/mime-1.2.11.tgz
+npm http 200 https://registry.npmjs.org/request/-/request-2.34.0.tgz
+npm http 200 https://registry.npmjs.org/srs/-/srs-0.4.8.tgz
+npm http 200 https://registry.npmjs.org/zipfile/-/zipfile-0.5.7.tgz
+npm http 200 https://registry.npmjs.org/sqlite3/-/sqlite3-2.2.7.tgz
+npm http 200 https://registry.npmjs.org/optimist/-/optimist-0.6.1.tgz
+npm http 200 https://registry.npmjs.org/mkdirp/-/mkdirp-0.3.5.tgz
+  AR(target) Release/obj.target/deps/hiredis.a
+  COPY Release/hiredis.a
+  CXX(target) Release/obj.target/hiredis/src/hiredis.o
+  CXX(target) Release/obj.target/hiredis/src/reader.o
+npm http 200 https://registry.npmjs.org/generic-pool/-/generic-pool-2.0.4.tgz
+  SOLINK_MODULE(target) Release/obj.target/hiredis.node
+  SOLINK_MODULE(target) Release/obj.target/hiredis.node: Finished
+  COPY Release/hiredis.node
+make: Leaving directory `/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/redis-mpool/node_modules/hiredis/build'
+[mapnik] Success: "/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/mapnik/lib/binding/node-v11-linux-x64/mapnik.node" is installed via remote
+npm http GET https://registry.npmjs.org/qs/-/qs-0.6.6.tgz
+npm http GET https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz
+npm http GET https://registry.npmjs.org/forever-agent/-/forever-agent-0.5.2.tgz
+npm http GET https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+npm http GET https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz
+npm http GET https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+npm http GET https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.3.0.tgz
+npm http GET https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz
+npm http GET https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.3.0.tgz
+npm http GET https://registry.npmjs.org/hawk/-/hawk-1.0.0.tgz
+npm http GET https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+npm http GET https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http GET https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/json-stringify-safe/-/json-stringify-safe-5.0.1.tgz
+npm http 200 https://registry.npmjs.org/qs/-/qs-0.6.6.tgz
+npm http 200 https://registry.npmjs.org/forever-agent/-/forever-agent-0.5.2.tgz
+npm http 200 https://registry.npmjs.org/node-uuid/-/node-uuid-1.4.3.tgz
+npm http 200 https://registry.npmjs.org/form-data/-/form-data-0.1.4.tgz
+npm http 200 https://registry.npmjs.org/tough-cookie/-/tough-cookie-2.0.0.tgz
+npm http 200 https://registry.npmjs.org/tunnel-agent/-/tunnel-agent-0.3.0.tgz
+npm http 200 https://registry.npmjs.org/http-signature/-/http-signature-0.10.1.tgz
+npm http 200 https://registry.npmjs.org/oauth-sign/-/oauth-sign-0.3.0.tgz
+npm http 200 https://registry.npmjs.org/aws-sign2/-/aws-sign2-0.5.0.tgz
+npm http 200 https://registry.npmjs.org/wordwrap/-/wordwrap-0.0.3.tgz
+npm http 200 https://registry.npmjs.org/minimist/-/minimist-0.0.10.tgz
+npm http 200 https://registry.npmjs.org/hawk/-/hawk-1.0.0.tgz
+npm http GET https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz
+npm http GET https://registry.npmjs.org/async/-/async-0.9.2.tgz
+npm http GET https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz
+npm http GET https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz
+npm http GET https://registry.npmjs.org/ctype/-/ctype-0.5.3.tgz
+npm http GET https://registry.npmjs.org/hoek/-/hoek-0.9.1.tgz
+npm http GET https://registry.npmjs.org/boom/-/boom-0.4.2.tgz
+npm http 200 https://registry.npmjs.org/combined-stream/-/combined-stream-0.0.7.tgz
+npm http GET https://registry.npmjs.org/cryptiles/-/cryptiles-0.2.2.tgz
+npm http GET https://registry.npmjs.org/sntp/-/sntp-0.2.4.tgz
+npm http 200 https://registry.npmjs.org/assert-plus/-/assert-plus-0.1.5.tgz
+npm http 200 https://registry.npmjs.org/asn1/-/asn1-0.1.11.tgz
+npm http 200 https://registry.npmjs.org/async/-/async-0.9.2.tgz
+npm http 200 https://registry.npmjs.org/cryptiles/-/cryptiles-0.2.2.tgz
+npm http 200 https://registry.npmjs.org/ctype/-/ctype-0.5.3.tgz
+npm http 200 https://registry.npmjs.org/sntp/-/sntp-0.2.4.tgz
+npm http 200 https://registry.npmjs.org/hoek/-/hoek-0.9.1.tgz
+npm http 200 https://registry.npmjs.org/boom/-/boom-0.4.2.tgz
+npm http GET https://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz
+npm http 200 https://registry.npmjs.org/delayed-stream/-/delayed-stream-0.0.5.tgz
+npm http GET https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+npm http GET https://registry.npmjs.org/set-immediate/-/set-immediate-0.1.1.tgz
+npm http 200 https://registry.npmjs.org/set-immediate/-/set-immediate-0.1.1.tgz
+npm http 200 https://registry.npmjs.org/nan/-/nan-1.1.2.tgz
+
+> sqlite3@2.2.7 install /home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/millstone/node_modules/sqlite3
+> node-pre-gyp install --fallback-to-build
+
+npm http GET https://registry.npmjs.org/nan/-/nan-1.5.3.tgz
+node-pre-gyp http GET https://mapbox-node-binary.s3.amazonaws.com/sqlite3/v2.2.7/node-v11-linux-x64.tar.gz
+npm http 200 https://registry.npmjs.org/nan/-/nan-1.5.3.tgz
+
+> zipfile@0.5.7 install /home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/millstone/node_modules/zipfile
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp http GET https://mapbox-node-binary.s3.amazonaws.com/zipfile/v0.5.7/node-v11-linux-x64.tar.gz
+node-pre-gyp http 200 https://mapbox-node-binary.s3.amazonaws.com/sqlite3/v2.2.7/node-v11-linux-x64.tar.gz
+npm http GET https://registry.npmjs.org/nan/-/nan-1.8.4.tgz
+npm http 200 https://registry.npmjs.org/nan/-/nan-1.8.4.tgz
+
+> srs@0.4.8 install /home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/millstone/node_modules/srs
+> node-pre-gyp install --fallback-to-build
+
+node-pre-gyp http 200 https://mapbox-node-binary.s3.amazonaws.com/zipfile/v0.5.7/node-v11-linux-x64.tar.gz
+node-pre-gyp http GET https://mapbox-node-binary.s3.amazonaws.com/srs/v0.4.8/node-v11-linux-x64.tar.gz
+[sqlite3] Success: "/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/millstone/node_modules/sqlite3/lib/binding/node-v11-linux-x64/node_sqlite3.node" is installed via remote
+[zipfile] Success: "/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/millstone/node_modules/zipfile/lib/binding/node-v11-linux-x64/zipfile.node" is installed via remote
+node-pre-gyp http 200 https://mapbox-node-binary.s3.amazonaws.com/srs/v0.4.8/node-v11-linux-x64.tar.gz
+[srs] Success: "/home/parallels/Windshaft-cartodb/node_modules/windshaft/node_modules/grainstore/node_modules/millstone/node_modules/srs/lib/binding/node-v11-linux-x64/srs.node" is installed via remote
+queue-async@1.0.7 node_modules/queue-async
+
+step@0.0.5 node_modules/step
+
+semver@1.1.4 node_modules/semver
+
+strftime@0.8.4 node_modules/strftime
+
+underscore@1.6.0 node_modules/underscore
+
+lzma@1.3.7 node_modules/lzma
+
+dot@1.0.3 node_modules/dot
+
+request@2.9.203 node_modules/request
+
+redis@0.8.6 node_modules/redis
+
+mocha@1.21.5 node_modules/mocha
+├── escape-string-regexp@1.0.2
+├── diff@1.0.8
+├── growl@1.8.1
+├── commander@2.3.0
+├── debug@2.0.0 (ms@0.6.2)
+├── mkdirp@0.5.0 (minimist@0.0.8)
+├── jade@0.26.3 (commander@0.6.1, mkdirp@0.3.0)
+└── glob@3.2.3 (inherits@2.0.1, graceful-fs@2.0.3, minimatch@0.2.14)
+
+log4js@0.6.25 node_modules/log4js
+├── async@0.2.10
+├── underscore@1.8.2
+├── semver@4.3.6
+└── readable-stream@1.0.33 (isarray@0.0.1, inherits@2.0.1, string_decoder@0.10.31, core-util-is@1.0.1)
+
+jshint@2.6.3 node_modules/jshint
+├── strip-json-comments@1.0.2
+├── exit@0.1.2
+├── console-browserify@1.1.0 (date-now@0.1.4)
+├── minimatch@1.0.0 (sigmund@1.0.1, lru-cache@2.6.4)
+├── shelljs@0.3.0
+├── cli@0.6.6 (glob@3.2.11)
+└── htmlparser2@3.8.3 (domelementtype@1.3.0, entities@1.0.0, domhandler@2.3.0, readable-stream@1.1.13, domutils@1.5.1)
+
+redis-mpool@0.3.0 node_modules/redis-mpool
+├── generic-pool@2.1.1
+├── redis@0.12.1
+└── hiredis@0.1.17 (bindings@1.2.1, nan@1.1.2)
+
+cartodb-redis@0.13.0 node_modules/cartodb-redis
+└── redis-mpool@0.1.0 (generic-pool@2.1.1, redis@0.12.1, hiredis@0.1.17)
+
+cartodb-psql@0.4.0 node_modules/cartodb-psql
+└── pg@2.6.2-cdb1 (buffer-writer@1.0.0, generic-pool@2.0.3)
+
+nock@1.3.0 node_modules/nock
+├── propagate@0.3.1
+├── debug@1.0.4 (ms@0.6.2)
+├── mkdirp@0.5.1 (minimist@0.0.8)
+├── lodash@2.4.1
+└── chai@1.10.0 (assertion-error@1.0.0, deep-eql@0.1.3)
+
+fastly-purge@1.0.0 node_modules/fastly-purge
+└── request@2.58.0 (caseless@0.10.0, aws-sign2@0.5.0, forever-agent@0.6.1, stringstream@0.0.4, tunnel-agent@0.4.0, oauth-sign@0.8.0, isstream@0.1.2, extend@2.0.1, json-stringify-safe@5.0.1, node-uuid@1.4.3, qs@3.1.0, combined-stream@1.0.5, tough-cookie@2.0.0, mime-types@2.0.14, bl@0.9.4, http-signature@0.11.0, hawk@2.3.1, har-validator@1.7.1, form-data@1.0.0-rc1)
+
+istanbul@0.3.16 node_modules/istanbul
+├── supports-color@1.3.1
+├── which@1.0.9
+├── abbrev@1.0.7
+├── nopt@3.0.3
+├── wordwrap@0.0.3
+├── mkdirp@0.5.1 (minimist@0.0.8)
+├── esprima@2.1.0
+├── once@1.3.2 (wrappy@1.0.1)
+├── resolve@1.1.6
+├── fileset@0.2.1 (glob@5.0.10, minimatch@2.0.8)
+├── async@1.2.1
+├── handlebars@3.0.0 (uglify-js@2.3.6, optimist@0.6.1, source-map@0.1.43)
+├── escodegen@1.6.1 (esutils@1.1.6, estraverse@1.9.3, source-map@0.1.43, optionator@0.5.0, esprima@1.2.5)
+└── js-yaml@3.3.1 (esprima@2.2.0, argparse@1.0.2)
+
+windshaft@0.45.0 node_modules/windshaft
+├── sphericalmercator@1.0.2
+├── step-profiler@0.2.1
+├── chronograph@0.1.0
+├── node-statsd@0.0.7
+├── tilelive-mapnik@0.6.15 (generic-pool@2.1.1, mime@1.2.11)
+├── express@2.5.11 (qs@0.4.2, mime@1.2.4, mkdirp@0.3.0, connect@1.9.2)
+├── tilelive@4.5.3 (optimist@0.6.1)
+├── request@2.48.0 (caseless@0.7.0, forever-agent@0.5.2, aws-sign2@0.5.0, stringstream@0.0.4, oauth-sign@0.5.0, tunnel-agent@0.4.0, json-stringify-safe@5.0.1, node-uuid@1.4.3, qs@2.3.3, mime-types@1.0.2, combined-stream@0.0.7, form-data@0.1.4, tough-cookie@2.0.0, http-signature@0.10.1, bl@0.9.4, hawk@1.1.1)
+├── carto@0.15.1-cdb1 (optimist@0.6.1, mapnik-reference@6.0.5)
+├── canvas@1.2.1 (nan@1.5.3)
+├── torque.js@2.11.0
+├── abaculus@1.1.0
+├── mapnik@1.4.15-cdb1 (nan@1.2.0, mapnik-vector-tile@0.5.5, node-pre-gyp@0.5.25)
+└── grainstore@0.23.0 (carto@0.9.5-cdb2, redis-mpool@0.1.0, millstone@0.6.14)
