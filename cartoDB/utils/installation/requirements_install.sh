@@ -54,5 +54,5 @@ sudo apt-get install -y imagemagick
 #sudo apt-get install -y varnish=2.1.5.1-cdb1 #or any version <3.x
 
 #Tools for autogenerating postgis docu
-sudo apt-get install -y xsltproc xmllint dblatex
+sudo apt-get install -y xsltproc  dblatex
 
