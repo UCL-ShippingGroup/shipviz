@@ -16,7 +16,7 @@ git clone --recursive https://github.com/CartoDB/cartodb.git $HOME/cartodb > $SH
 if [ $? -eq 0 ]; then
         printf "OK!\n"
 else
-        printf "NOK. See log at $PWD/log/${script}_install.log\n"
+        printf "NOK. See log at $SHIPVIZ_PATH/log/cartoDB_clone.log\n"
 fi
 
 #Execute all scripts in order
