@@ -10,6 +10,7 @@ node app.js development &
 redis-server &
 
 #These need Redis-Server running
+cd $HOME/cartodb
 rbenv local 1.9.3-p551
 bundle install
 
