@@ -21,7 +21,7 @@ cp $HOME/cartodb/config/app_config.yml.sample $HOME/cartodb/config/app_config.ym
 cp $HOME/cartodb/config/database.yml.sample $HOME/cartodb/config/database.yml
 
 #Add entries to /etc/hosts needed in development
-echo "127.0.0.1 ${SUBDOMAIN}.localhost.lan" | sudo tee -a /etc/hosts
+echo "127.0.0.1 development.localhost.lan" | sudo tee -a /etc/hosts
 
 #Create a development user
 sh  $HOME/cartodb/script/create_dev_user development development development r.alegre@ucl.ac.uk
