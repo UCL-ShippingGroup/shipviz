@@ -9,6 +9,6 @@ AS (
         FROM ais_extended 
         WHERE location is not null
     ) 
-    AS some_vessels_filtered 
+    AS lines 
     GROUP BY mmsi
 );
