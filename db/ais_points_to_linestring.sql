@@ -3,7 +3,7 @@ CREATE TABLE ais_linestrings
 AS (
     SELECT mmsi, 
         count(*) AS points_count, 
-        ST_MakeLine(location::geometry order by time) 
+        ST_MakeLine(location::geometry order by time) AS trajectory 
     FROM (
         SELECT * 
         FROM ais_extended 
