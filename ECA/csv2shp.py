@@ -15,8 +15,8 @@ for group in ecas.groupby('Area'):
     latitudes = data['Latitude']
     longitudes = data['Longitude']
     w.poly(parts = [numpy.column_stack((longitudes, latitudes)).tolist()])
-    w.field('FIRST_FLD','C','150')
-    w.record(FIRST_FLD = area)
+    w.field('ECA','C','150')
+    w.record(ECA = area)
     w.save(area)
     #Shapefiles need a prj file for CartoDB to import properly
     prj = open("%s.prj" % area, "w")
