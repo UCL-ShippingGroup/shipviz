@@ -7,8 +7,8 @@ cd $HOME/Windshaft-cartodb
 node app.js development &
 
 #Run Redis Server
-sudo service redis-server start
-#redis-server &
+redis-server &
+sudo service redis-server restart
 
 #These need Redis-Server running
 cd $HOME/cartodb
