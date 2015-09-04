@@ -1,10 +1,0 @@
-  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
-                                 Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100  7149  100  7149    0     0  24547      0 --:--:-- --:--:-- --:--:-- 24567
-=> Downloading nvm from git to '/home/parallels/.nvm'
-=> Cloning into '/home/parallels/.nvm'...
-* (detached from v0.25.4)
-  master
-
-=> Appending source string to /home/parallels/.bashrc
-=> Close and reopen your terminal to start using nvm
