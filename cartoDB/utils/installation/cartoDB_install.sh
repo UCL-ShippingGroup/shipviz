@@ -41,3 +41,8 @@ for script in ppas requirements postgres postgis ruby  python nvm cartodb_sql_ap
 		printf "NOK. See log at $SHIPVIZ_PATH/log/${script}_install.log\n"
 	fi
 done
+
+#Once all has been done, copy the configuration files to where it corresponds
+echo "Copying redis configuration to /etc/redis/redis.conf"
+sudo cp -v config/redis.conf /etc/redis/redis.conf
+
