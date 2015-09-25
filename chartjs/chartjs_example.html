@@ -2,7 +2,16 @@
 <html>
 
 <head>
-    
+
+    <!-- Example created as a proof of concept to demonstrate ChartJS 
+         can plot data from a local CartoDB server. 
+         Comments are that verbose so that ShipViz people can replicate this
+         example and modify it. 
+         Note the nice thing to do would be having 3 separate files, one 
+         with the HTML, another with CSS and another with the JavaScript
+         code that creates the charts. 
+         Note this example only works in computer that can access the 
+         shipviz account on the UCL CartoDB server. -->
     <title>ChartJS and ShipViz test</title>
 
     <!-- Import ChartJS to be able to execute the "new Chart" command. -->
@@ -24,37 +33,46 @@
        connect to the local CartoDB server. This must change if we get a DNS
        server name. */
     var sql = cartodb.SQL({ user: 'shipviz' });
-    sql.execute("SELECT identifier, count(*) as ct FROM cartodb_minihourly GROUP BY identifier ORDER BY identifier", {maps_api_template: 'http://{user}.localhost.lan:3000', sql_api_template: 'http://{user}.localhost.lan:8080'}).done(function(data) {
+    sql.execute(
+            "SELECT identifier, count(*) as ct FROM cartodb_minihourly " +
+            "GROUP BY identifier ORDER BY identifier", 
+            {
+                maps_api_template: 'http://{user}.localhost.lan:3000', 
+                sql_api_template: 'http://{user}.localhost.lan:8080'
+            })
+        .done(function(data) {
 
-    var total = [];
-    var labels = [];
+            var total = [];
+            var labels = [];
     
-    /* Go through SQL query result and compute labels and values for chart */
-    for (i in data.rows) {
-        total.push(data.rows[i].ct);
-        labels.push(data.rows[i].identifier);
-    }
+            /* Go through SQL query result and compute labels and values for 
+               chart */
+            for (i in data.rows) {
+                total.push(data.rows[i].ct);
+                labels.push(data.rows[i].identifier);
+            }
 
-    /* Store labels and values to variable in JSON that ChartJS can 
-       understand. See http://www.chartjs.org/docs/#line-chart */
-    var lineChartData = {
-        labels : labels,
-        datasets : [
-          {
-            data : total
-          }
-        ]
-    }
+            /* Store labels and values to variable in JSON that ChartJS can 
+            understand. See http://www.chartjs.org/docs/#line-chart */
+            var lineChartData = {
+                labels : labels,
+                datasets : [
+                {
+                    data : total
+                }
+                ]
+            }
 
-    /* Create chart. See http://www.chartjs.org/docs/#line-chart. In this 
-       case it's a Line-Chart, but others can be created in same manner. 
-       See http://www.chartjs.org */
-    var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Bar(lineChartData);
-});
+            /* Create chart. See http://www.chartjs.org/docs/#line-chart. In 
+               this case it's a Line-Chart, but others can be created in 
+               same manner. See http://www.chartjs.org */
+            var myLine = new Chart(document.getElementById("canvas").
+                    getContext("2d")).Bar(lineChartData);
+    });
         
     </script>
 
-    <!-- This is CSS for styling. Can also be save in a file elsewhere. 
+    <!-- This is CSS for styling. Can also be saved in a file elsewhere. 
          In this case it's just declaring the size of the chart.-->
     <style>
     canvas {
