@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title>ChartJS and ShipViz test</title>
+
+    <!-- Import ChartJS to be able to execute the "new Chart" command. -->
+    <script src="http://www.chartjs.org/assets/Chart.js"></script>
+    
+    <meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+    
+    <!-- Import CartoDB JS to be able to execute the cartodb.SQL and 
+        sql.execute sentences. -->
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+    
+    <!-- Embed JavaScript here - it could also be on a file elsewhere and be
+        imported as ChartJS and CartoDB with <scrip src="path_to_file"> -->
+    <script>
+    /* Connect to CartoDB's user shipviz and execute SQL query that returns
+       data in a way it can be manipulated into labels and values for the X/Y
+       chart created with ChartJS.
+       NOTE the sql_api_template and maps_api_template properties needed to 
+       connect to the local CartoDB server. This must change if we get a DNS
+       server name. */
+    var sql = cartodb.SQL({ user: 'shipviz' });
+    sql.execute("SELECT identifier, count(*) as ct FROM cartodb_minihourly GROUP BY identifier ORDER BY identifier", {maps_api_template: 'http://{user}.localhost.lan:3000', sql_api_template: 'http://{user}.localhost.lan:8080'}).done(function(data) {
+
+    var total = [];
+    var labels = [];
+    
+    /* Go through SQL query result and compute labels and values for chart */
+    for (i in data.rows) {
+        total.push(data.rows[i].ct);
+        labels.push(data.rows[i].identifier);
+    }
+
+    /* Store labels and values to variable in JSON that ChartJS can 
+       understand. See http://www.chartjs.org/docs/#line-chart */
+    var lineChartData = {
+        labels : labels,
+        datasets : [
+          {
+            data : total
+          }
+        ]
+    }
+
+    /* Create chart. See http://www.chartjs.org/docs/#line-chart. In this 
+       case it's a Line-Chart, but others can be created in same manner. 
+       See http://www.chartjs.org */
+    var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Bar(lineChartData);
+});
+        
+    </script>
+
+    <!-- This is CSS for styling. Can also be save in a file elsewhere. 
+         In this case it's just declaring the size of the chart.-->
+    <style>
+    canvas {
+        height: 500px;
+        margin: 5px;
+        width: 600px;
+    }
+    </style>
+</head>
+
+<!-- HTML in charge of presenting the graph. Since all it's done with 
+    CSS and JS, there's not much. Notice how the id corresponds to the
+    CSS and the getElementById part of the ChartJS command. -->
+<body>
+    <canvas id="canvas"></canvas>
+</body>
+
+</html>
