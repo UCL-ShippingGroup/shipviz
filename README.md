@@ -17,7 +17,7 @@ We require an instance of CartoDB that allows for data storage on a local server
 
 Furthermore, we showcase a number of typical research and policy questions for AIS data with the included data sample and how to [solve] (https://github.com/UCL-ShippingGroup/shipviz/wiki/ShipVizTutorial) these using ShipViz.
 
-Examples (under development):
+Examples (under development, see some code [here](https://github.com/UCL-ShippingGroup/shipviz/tree/master/examples)):
 * Vessels travelling to/from certain areas
 * Local and global changes in ship supply
 * Behavioural patterns
