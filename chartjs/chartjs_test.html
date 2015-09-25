@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Accidents Per Capita per County</title>
+<script src="http://www.chartjs.org/assets/Chart.js"></script>
+<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+<script src="http://libs.cartocdn.com/cartodb.js/v3/cartodb.js"></script>
+    <script>
+        var sql = cartodb.SQL({ user: 'shipviz' });
+sql.execute("SELECT identifier, count(*) as ct FROM cartodb_minihourly GROUP BY identifier ORDER BY identifier", {maps_api_template: 'http://{user}.localhost.lan:3000', sql_api_template: 'http://{user}.localhost.lan:8080'})
+.done(function(data) {
+
+
+
+
+var total = [];
+var labels = [];
+for (i in data.rows) {
+total.push(data.rows[i].ct);
+labels.push(data.rows[i].identifier);
+}
+var lineChartData = {
+labels : labels,
+datasets : [
+{
+
+data : total
+}
+]
+}
+var myLine = new Chart(document.getElementById("canvas").getContext("2d")).Bar(lineChartData);
+});
+        
+    </script>
+<style>
+canvas {
+height: 500px;
+margin: 5px;
+width: 600px;
+}
+</style>
+</head>
+<body>
+<canvas id="canvas"></canvas>
+
+</body>
+</html>
